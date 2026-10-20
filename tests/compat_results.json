@@ -1,0 +1,1997 @@
+{
+ "ffmpeg_version": "ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+ "per_stream_copy": [
+  {
+   "file": "multi.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "h264",
+   "src": {
+    "codec": "h264",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": "主视频 Main Video",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"multi.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "h264",
+    "tag": "avc1",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "aac",
+   "src": {
+    "codec": "aac",
+    "tag": "[0][0][0][0]",
+    "language": "jpn",
+    "title": "日语",
+    "handler_name": null,
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"multi.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "aac",
+    "tag": "mp4a",
+    "language": "jpn",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 2,
+   "type": "audio",
+   "codec": "ac3",
+   "src": {
+    "codec": "ac3",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "English 5.1",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"multi.mkv\" -map 0:2 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "ac3",
+    "tag": "ac-3",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 3,
+   "type": "audio",
+   "codec": "flac",
+   "src": {
+    "codec": "flac",
+    "tag": "[0][0][0][0]",
+    "language": "chi",
+    "title": "国语",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"multi.mkv\" -map 0:3 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "flac",
+    "tag": "fLaC",
+    "language": "chi",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 4,
+   "type": "subtitle",
+   "codec": "subrip",
+   "src": {
+    "codec": "subrip",
+    "tag": "[0][0][0][0]",
+    "language": "chi",
+    "title": "简体中文",
+    "handler_name": null,
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 000001cdf1eeb3c0] Could not find tag for codec subrip in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001cdf1ece240] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000026188d4df80] Could not find tag for codec subrip in stream #0, codec not currently supported in container | [out#0/mp4 @ 000002618a898380] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 00000204310e8500] Could not find tag for codec subrip in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000020430719780] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 5,
+   "type": "subtitle",
+   "codec": "ass",
+   "src": {
+    "codec": "ass",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "English Signs (ASS)",
+    "handler_name": null,
+    "default": 0,
+    "forced": 1,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 00000165e5c73bc0] Could not find tag for codec ass in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000165e57f87c0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000026ad936a9c0] Could not find tag for codec ass in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000026ad9350140] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 000001ccbc834380] Could not find tag for codec ass in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001ccbc829b40] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  },
+  {
+   "file": "multi.mkv",
+   "index": 6,
+   "type": "subtitle",
+   "codec": "webvtt",
+   "src": {
+    "codec": "webvtt",
+    "tag": "[0][0][0][0]",
+    "language": "jpn",
+    "title": "WebVTT 日本語",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 00000246df0052c0] Could not find tag for codec webvtt in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000246deb89240] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000025078c6c400] Could not find tag for codec webvtt in stream #0, codec not currently supported in container | [out#0/mp4 @ 000002507a9888c0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 0000022747a04640] Could not find tag for codec webvtt in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000022747449580] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "hevc",
+   "src": {
+    "codec": "hevc",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": "HEVC 10bit HDR10",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "hevc",
+    "tag": "hev1",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "hevc_hvc1",
+   "src": {
+    "codec": "hevc",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": "HEVC 10bit HDR10",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:0 -c copy -tag:v hvc1 out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "hevc",
+    "tag": "hvc1",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "eac3",
+   "src": {
+    "codec": "eac3",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "eac3 track",
+    "handler_name": null,
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "eac3",
+    "tag": "ec-3",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 2,
+   "type": "audio",
+   "codec": "truehd",
+   "src": {
+    "codec": "truehd",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "truehd track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "experimental",
+   "errors": {
+    "plain": "[mp4 @ 0000013dcaa44840] truehd in MP4 support is experimental, add '-strict -2' if you want to use it. | [out#0/mp4 @ 0000013dc8ae9a80] Could not write header (incorrect codec parameters ?): Experimental feature",
+    "unofficial": "[mp4 @ 000001bc871e6480] truehd in MP4 support is experimental, add '-strict -2' if you want to use it. | [out#0/mp4 @ 000001bc856144c0] Could not write header (incorrect codec parameters ?): Experimental feature"
+   },
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:2 -c copy -strict experimental out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "truehd",
+    "tag": "mlpa",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 3,
+   "type": "audio",
+   "codec": "dts",
+   "src": {
+    "codec": "dts",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "dca track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:3 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "dts",
+    "tag": "mp4a",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 4,
+   "type": "audio",
+   "codec": "opus",
+   "src": {
+    "codec": "opus",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "libopus track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:4 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "opus",
+    "tag": "Opus",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 5,
+   "type": "audio",
+   "codec": "pcm_s24le",
+   "src": {
+    "codec": "pcm_s24le",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "pcm_s24le track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:5 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "pcm_s24le",
+    "tag": "ipcm",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 6,
+   "type": "audio",
+   "codec": "vorbis",
+   "src": {
+    "codec": "vorbis",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "libvorbis track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:6 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "vorbis",
+    "tag": "mp4a",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 7,
+   "type": "audio",
+   "codec": "mp2",
+   "src": {
+    "codec": "mp2",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "mp2 track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:7 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "mp3",
+    "tag": "mp4a",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "hevc10_rare_audio.mkv",
+   "index": 8,
+   "type": "audio",
+   "codec": "alac",
+   "src": {
+    "codec": "alac",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "alac track",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"hevc10_rare_audio.mkv\" -map 0:8 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "alac",
+    "tag": "alac",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "av1_opus.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "av1",
+   "src": {
+    "codec": "av1",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"av1_opus.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "av1",
+    "tag": "av01",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "av1_opus.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "opus",
+   "src": {
+    "codec": "opus",
+    "tag": "[0][0][0][0]",
+    "language": "fre",
+    "title": "av1_opus.mkv audio",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"av1_opus.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "opus",
+    "tag": "Opus",
+    "language": "fre",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "vp9_vorbis.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "vp9",
+   "src": {
+    "codec": "vp9",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"vp9_vorbis.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "vp9",
+    "tag": "vp09",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "vp9_vorbis.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "vorbis",
+   "src": {
+    "codec": "vorbis",
+    "tag": "[0][0][0][0]",
+    "language": "fre",
+    "title": "vp9_vorbis.mkv audio",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"vp9_vorbis.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "vorbis",
+    "tag": "mp4a",
+    "language": "fre",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "vp8_vorbis.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "vp8",
+   "src": {
+    "codec": "vp8",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 0000028db94d2c00] Could not find tag for codec vp8 in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000028db75834c0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 00000210cd636140] Could not find tag for codec vp8 in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000210cd633280] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 000001e41f2d7040] Could not find tag for codec vp8 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001e41f2d5a00] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  },
+  {
+   "file": "vp8_vorbis.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "vorbis",
+   "src": {
+    "codec": "vorbis",
+    "tag": "[0][0][0][0]",
+    "language": "fre",
+    "title": "vp8_vorbis.mkv audio",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"vp8_vorbis.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "vorbis",
+    "tag": "mp4a",
+    "language": "fre",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "mpeg2_mp2.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "mpeg2video",
+   "src": {
+    "codec": "mpeg2video",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"mpeg2_mp2.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "mpeg2video",
+    "tag": "mp4v",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "mpeg2_mp2.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "mp2",
+   "src": {
+    "codec": "mp2",
+    "tag": "[0][0][0][0]",
+    "language": "fre",
+    "title": "mpeg2_mp2.mkv audio",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"mpeg2_mp2.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "mp3",
+    "tag": "mp4a",
+    "language": "fre",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "theora_vorbis.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "theora",
+   "src": {
+    "codec": "theora",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 0000015b23c47340] Could not find tag for codec theora in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000015b23c46580] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 000001881c55fe80] Could not find tag for codec theora in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001881c55f840] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 0000024e3c650f40] Could not find tag for codec theora in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000024e3c64f600] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  },
+  {
+   "file": "theora_vorbis.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "vorbis",
+   "src": {
+    "codec": "vorbis",
+    "tag": "[0][0][0][0]",
+    "language": "fre",
+    "title": "theora_vorbis.mkv audio",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"theora_vorbis.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "vorbis",
+    "tag": "mp4a",
+    "language": "fre",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "dvdsub.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "h264",
+   "src": {
+    "codec": "h264",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"dvdsub.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "h264",
+    "tag": "avc1",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "dvdsub.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "aac",
+   "src": {
+    "codec": "aac",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"dvdsub.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "aac",
+    "tag": "mp4a",
+    "language": "und",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "dvdsub.mkv",
+   "index": 2,
+   "type": "subtitle",
+   "codec": "dvd_subtitle",
+   "src": {
+    "codec": "dvd_subtitle",
+    "tag": "[0][0][0][0]",
+    "language": "eng",
+    "title": "DVD bitmap subs",
+    "handler_name": null,
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"dvdsub.mkv\" -map 0:2 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "1 subtitle events",
+   "out": {
+    "codec": "dvd_subtitle",
+    "tag": "mp4s",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SubtitleHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "pgs.mkv",
+   "index": 0,
+   "type": "video",
+   "codec": "h264",
+   "src": {
+    "codec": "h264",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"pgs.mkv\" -map 0:0 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "h264",
+    "tag": "avc1",
+    "language": "und",
+    "title": null,
+    "handler_name": "VideoHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "pgs.mkv",
+   "index": 1,
+   "type": "audio",
+   "codec": "aac",
+   "src": {
+    "codec": "aac",
+    "tag": "[0][0][0][0]",
+    "language": null,
+    "title": null,
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": "plain",
+   "errors": {},
+   "cmd": "ffmpeg -i \"pgs.mkv\" -map 0:1 -c copy out.mp4",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out": {
+    "codec": "aac",
+    "tag": "mp4a",
+    "language": "und",
+    "title": null,
+    "handler_name": "SoundHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   }
+  },
+  {
+   "file": "pgs.mkv",
+   "index": 2,
+   "type": "subtitle",
+   "codec": "hdmv_pgs_subtitle",
+   "src": {
+    "codec": "hdmv_pgs_subtitle",
+    "tag": "[0][0][0][0]",
+    "language": "chi",
+    "title": "PGS 中文",
+    "handler_name": null,
+    "default": 0,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "works_with": null,
+   "errors": {
+    "plain": "[mp4 @ 0000029cb2b09d00] Could not find tag for codec hdmv_pgs_subtitle in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000029cb2b07040] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 00000265e05ea940] Could not find tag for codec hdmv_pgs_subtitle in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000265e00a8ac0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 0000027f4af59f80] Could not find tag for codec hdmv_pgs_subtitle in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000027f4af581c0] Could not write header (incorrect codec parameters ?): Invalid argument"
+   }
+  }
+ ],
+ "subtitles": [
+  {
+   "case": "srt -> mov_text",
+   "rc": 0,
+   "err": "",
+   "decode_ok": true,
+   "decode_msg": "2 subtitle events",
+   "out": {
+    "codec": "mov_text",
+    "tag": "tx3g",
+    "language": "chi",
+    "title": null,
+    "handler_name": "SubtitleHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "roundtrip_srt": "1\n00:00:00,500 --> 00:00:02,500\n第一行字幕：你好，世界\n\n2\n00:00:03,000 --> 00:00:05,500\n第二行字幕 <i>斜体</i>\n\n"
+  },
+  {
+   "case": "ass -> mov_text",
+   "rc": 0,
+   "err": "",
+   "decode_ok": true,
+   "decode_msg": "3 subtitle events",
+   "out": {
+    "codec": "mov_text",
+    "tag": "tx3g",
+    "language": "eng",
+    "title": null,
+    "handler_name": "SubtitleHandler",
+    "default": 1,
+    "forced": 1,
+    "attached_pic": 0
+   },
+   "roundtrip_srt": "1\n00:00:00,500 --> 00:00:01,000\n<font size=\"28\"><b>Bold</b></font><font size=\"28\"> and green text</font>\n\n2\n00:00:01,000 --> 00:00:03,000\n<font size=\"28\"><b><font size=\"36\"><font color=\"#ffff00\">Positioned sign</font></font></b></font>\n\n3\n00:00:03,000 --> 00:00:05,500\n<font size=\"28\"><i>Italic line</i></font><font size=\"28\">\nsecond row</font>\n\n"
+  },
+  {
+   "case": "webvtt -> mov_text",
+   "rc": 0,
+   "err": "",
+   "decode_ok": true,
+   "decode_msg": "2 subtitle events",
+   "out": {
+    "codec": "mov_text",
+    "tag": "tx3g",
+    "language": "jpn",
+    "title": null,
+    "handler_name": "SubtitleHandler",
+    "default": 1,
+    "forced": 0,
+    "attached_pic": 0
+   },
+   "roundtrip_srt": "1\n00:00:00,500 --> 00:00:02,500\n<b>WebVTT</b> line one\n\n2\n00:00:03,000 --> 00:00:05,500\nWebVTT line two\n\n"
+  },
+  {
+   "case": "srt sidecar .srt (copy)",
+   "rc": 0,
+   "err": "",
+   "content_head": "1\n00:00:00,500 --> 00:00:02,500\n第一行字幕：你好，世界\n\n2\n00:00:03,000 --> 00:00:05,500\n第二行字幕 <i>斜体</i>\n\n"
+  },
+  {
+   "case": "ass sidecar .ass (copy)",
+   "rc": 0,
+   "err": "",
+   "content_head": "[Script Info]\nTitle: styled test\nScriptType: v4.00+\nPlayResX: 640\nPlayResY: 360\nWrapStyle: 0\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Default,Arial,28,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,1,2,20,20,20,1\nStyle: Sign,Arial,36,&H0000FFFF,&H000000FF,&H00400000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1\n\n[Events]\nFormat: Layer, Start, End, Style,"
+  },
+  {
+   "case": "webvtt sidecar .vtt (copy)",
+   "rc": 0,
+   "err": "",
+   "content_head": "WEBVTT\n\n00:00.500 --> 00:02.500\n<b>WebVTT</b> line one\n\n00:03.000 --> 00:05.500\nWebVTT line two\n"
+  },
+  {
+   "case": "pgs.mkv -> .sup sidecar (copy)",
+   "rc": 0,
+   "err": "",
+   "size": 2264,
+   "decode_ok": true,
+   "decode_msg": "4 subtitle events"
+  },
+  {
+   "case": "dvdsub.mkv -> .mks sidecar (copy)",
+   "rc": 4294967274,
+   "err": "[AVFormatContext @ 0000023eb9efd7c0] Unable to choose an output format for 'tests\\compat_out\\sidecar_dvdsub.mks'; use a standard extension for the filename or specify the format manually. | [out#0 @ 0000023eba087b80] Error initializing the muxer for tests\\compat_out\\sidecar_dvdsub.mks: Invalid argument | Error opening output file tests\\co"
+  },
+  {
+   "case": "pgs.mkv bitmap -> mov_text re-encode into mp4",
+   "rc": 4294967274,
+   "err": "[sost#0:0/mov_text @ 000001cfc5719fc0] Subtitle encoding currently only possible from text to text or bitmap to bitmap | Error opening output file tests\\compat_out\\pgs_to_mov_text.mp4. | Error opening output files: Invalid argument"
+  },
+  {
+   "case": "pgs.mkv bitmap -> dvdsub re-encode into mp4",
+   "rc": 4294967274,
+   "err": "[mp4 @ 000001e156d4a300] Application provided duration: 4294967295000 in stream 0 is invalid | [sost#0:0/dvdsub @ 000001e1552fe580] Error submitting a packet to the muxer: Invalid argument |     Last message repeated 1 times"
+  },
+  {
+   "case": "dvdsub.mkv bitmap -> mov_text re-encode into mp4",
+   "rc": 4294967274,
+   "err": "[sost#0:0/mov_text @ 000001c19a02ac40] Subtitle encoding currently only possible from text to text or bitmap to bitmap | Error opening output file tests\\compat_out\\dvdsub_to_mov_text.mp4. | Error opening output files: Invalid argument"
+  },
+  {
+   "case": "dvdsub.mkv bitmap -> dvdsub re-encode into mp4",
+   "rc": 0,
+   "err": ""
+  },
+  {
+   "case": "dvdsub.mkv#2 -> -f vobsub",
+   "rc": 4294967274,
+   "err": "[AVFormatContext @ 000002d4ed6c2c80] Requested output format 'vobsub' is not known. | [out#0 @ 000002d4ef798800] Error initializing the muxer for tests\\compat_out\\vobsub_try_dvdsub.sub: Invalid argument | Error opening output file tests\\compat_out\\vobsub_try_dvdsub.sub."
+  },
+  {
+   "case": "multi.mkv#4 -> -f vobsub",
+   "rc": 4294967274,
+   "err": "[AVFormatContext @ 0000025bf68b2640] Requested output format 'vobsub' is not known. | [out#0 @ 0000025bf49e8d00] Error initializing the muxer for tests\\compat_out\\vobsub_try_multi.sub: Invalid argument | Error opening output file tests\\compat_out\\vobsub_try_multi.sub."
+  },
+  {
+   "case": "dvdsub.mkv full -map 0 -c copy -> mp4",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "und",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "dvd_subtitle",
+     "tag": "mp4s",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "sub_decode_ok": true,
+   "sub_decode_msg": "1 subtitle events",
+   "overlay_render_rc": 0,
+   "overlay_render_err": "[null @ 000002e490c12a00] Application provided invalid, non monotonically increasing dts to muxer in stream 0: 149 >= 149"
+  },
+  {
+   "case": "pgs.mkv full -map 0 -c copy -> mp4",
+   "rc": 4294967274,
+   "err": "[mp4 @ 00000252abb79b40] Could not find tag for codec hdmv_pgs_subtitle in stream #2, codec not currently supported in container | [out#0/mp4 @ 00000252abb783c0] Could not write header (incorrect codec parameters ?): Invalid argument"
+  }
+ ],
+ "multi_full": [
+  {
+   "variant": "no_use_metadata_tags",
+   "rc": 0,
+   "err": "",
+   "cmd": "ffmpeg -i tests\\media\\multi.mkv -map 0:v:0 -map 0:a -map 0:s -map 0:8 -c copy -c:s mov_text -disposition:v:1 attached_pic -map_metadata 0 -map_chapters 0 -movflags +faststart tests\\compat_out\\multi_full_no_use_metadata_tags.mp4",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomdby1iso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "artist": "测试艺术家 Test Artist",
+    "date": "2026",
+    "encoder": "Lavf62.12.101",
+    "comment": "全局注释 global comment"
+   },
+   "chapters": [
+    [
+     "0.000000",
+     "2.000000",
+     "第一章 Opening"
+    ],
+    [
+     "2.000000",
+     "4.000000",
+     "Chapter 2 中段"
+    ],
+    [
+     "4.000000",
+     "6.000000",
+     "第三章 Ending"
+    ]
+   ],
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "ac3",
+     "tag": "ac-3",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "flac",
+     "tag": "fLaC",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 1,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "bin_data",
+     "tag": "text",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mjpeg",
+     "tag": "[0][0][0][0]",
+     "language": null,
+     "title": null,
+     "handler_name": null,
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 1
+    }
+   ],
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ],
+   "decode_av_ok": true
+  },
+  {
+   "variant": "use_metadata_tags",
+   "rc": 0,
+   "err": "",
+   "cmd": "ffmpeg -i tests\\media\\multi.mkv -map 0:v:0 -map 0:a -map 0:s -map 0:8 -c copy -c:s mov_text -disposition:v:1 attached_pic -map_metadata 0 -map_chapters 0 -movflags +faststart+use_metadata_tags tests\\compat_out\\multi_full_use_metadata_tags.mp4",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomdby1iso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "ENCODED_BY_TEST": "make_samples.py",
+    "ARTIST": "测试艺术家 Test Artist",
+    "COMMENT": "全局注释 global comment",
+    "DATE": "2026",
+    "MY_CUSTOM_TAG": "custom value 自定义",
+    "encoder": "Lavf62.12.101"
+   },
+   "chapters": [
+    [
+     "0.000000",
+     "2.000000",
+     "第一章 Opening"
+    ],
+    [
+     "2.000000",
+     "4.000000",
+     "Chapter 2 中段"
+    ],
+    [
+     "4.000000",
+     "6.000000",
+     "第三章 Ending"
+    ]
+   ],
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "ac3",
+     "tag": "ac-3",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "flac",
+     "tag": "fLaC",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 1,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "bin_data",
+     "tag": "text",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ],
+   "decode_av_ok": true
+  },
+  {
+   "variant": "use_metadata_tags_handler",
+   "rc": 0,
+   "err": "",
+   "cmd": "ffmpeg -i tests\\media\\multi.mkv -map 0:v:0 -map 0:a -map 0:s -map 0:8 -c copy -c:s mov_text -disposition:v:1 attached_pic -map_metadata 0 -map_chapters 0 -movflags +faststart+use_metadata_tags -metadata:s:a:0 handler_name=日语 -metadata:s:a:1 \"handler_name=English 5.1\" -metadata:s:a:2 handler_name=国语 -metadata:s:s:0 handler_name=简体中文 -metadata:s:s:1 \"handler_name=English Signs (ASS)\" -metadata:s:s:2 \"handler_name=WebVTT 日本語\" tests\\compat_out\\multi_full_use_metadata_tags_handler.mp4",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomdby1iso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "ENCODED_BY_TEST": "make_samples.py",
+    "ARTIST": "测试艺术家 Test Artist",
+    "COMMENT": "全局注释 global comment",
+    "DATE": "2026",
+    "MY_CUSTOM_TAG": "custom value 自定义",
+    "encoder": "Lavf62.12.101"
+   },
+   "chapters": [
+    [
+     "0.000000",
+     "2.000000",
+     "第一章 Opening"
+    ],
+    [
+     "2.000000",
+     "4.000000",
+     "Chapter 2 中段"
+    ],
+    [
+     "4.000000",
+     "6.000000",
+     "第三章 Ending"
+    ]
+   ],
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "日语",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "ac3",
+     "tag": "ac-3",
+     "language": "eng",
+     "title": null,
+     "handler_name": "English 5.1",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "flac",
+     "tag": "fLaC",
+     "language": "chi",
+     "title": null,
+     "handler_name": "国语",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "chi",
+     "title": null,
+     "handler_name": "简体中文",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "eng",
+     "title": null,
+     "handler_name": "English Signs (ASS)",
+     "default": 0,
+     "forced": 1,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "WebVTT 日本語",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "bin_data",
+     "tag": "text",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ],
+   "decode_av_ok": true
+  },
+  {
+   "variant": "naive -map 0 -c copy",
+   "rc": 4294967274,
+   "err": "[mp4 @ 000002547b07b3c0] Could not find tag for codec subrip in stream #4, codec not currently supported in container | [out#0/mp4 @ 000002547cad9040] Could not write header (incorrect codec parameters ?): Invalid argument"
+  },
+  {
+   "variant": "naive -map 0 -c copy -c:s mov_text",
+   "rc": 4294967274,
+   "err": "[mp4 @ 00000213a98339c0] Could not find tag for codec ttf in stream #7, codec not currently supported in container | [out#0/mp4 @ 00000213a8eb9ac0] Could not write header (incorrect codec parameters ?): Invalid argument | [sost#0:4/mov_text @ 00000213a753cac0] Task finished with error code: -22 (Invalid argument)"
+  },
+  {
+   "variant": "-map 0 -map -0:t -c copy -c:s mov_text",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "ac3",
+     "tag": "ac-3",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "flac",
+     "tag": "fLaC",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 1,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "jpn",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "bin_data",
+     "tag": "text",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mjpeg",
+     "tag": "[0][0][0][0]",
+     "language": null,
+     "title": null,
+     "handler_name": null,
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 1
+    }
+   ]
+  }
+ ],
+ "attachments": [
+  {
+   "case": "-dump_attachment:t \"\" -i multi.mkv (no output)",
+   "rc": 1,
+   "err": "At least one output file must be specified",
+   "files": [
+    "arial.ttf"
+   ]
+  },
+  {
+   "case": "-dump_attachment:t \"\" -i multi.mkv -f null -",
+   "rc": 0,
+   "err": "",
+   "files": [
+    "arial.ttf"
+   ]
+  },
+  {
+   "case": "-dump_attachment:8 (cover, demuxed as attached_pic video)",
+   "rc": 0,
+   "err": "",
+   "files": []
+  },
+  {
+   "case": "-map 0:8 -c copy -frames:v 1 -update 1 cover.jpg",
+   "rc": 0,
+   "err": "",
+   "byte_identical_to_source": true
+  },
+  {
+   "case": "dumped arial.ttf byte-identical",
+   "result": true
+  },
+  {
+   "case": "external cover.jpg as attached_pic",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mjpeg",
+     "tag": "[0][0][0][0]",
+     "language": null,
+     "title": null,
+     "handler_name": null,
+     "default": 0,
+     "forced": 0,
+     "attached_pic": 1
+    }
+   ]
+  },
+  {
+   "case": "font attachment stream into mp4",
+   "rc": 4294967274,
+   "err": "[mp4 @ 000002b875135000] Could not find tag for codec ttf in stream #1, codec not currently supported in container | [out#0/mp4 @ 000002b874cb8d00] Could not write header (incorrect codec parameters ?): Invalid argument"
+  }
+ ],
+ "hdr": [
+  {
+   "case": "source mkv",
+   "codec_tag": "[0][0][0][0]",
+   "pix_fmt": "yuv420p10le",
+   "color": [
+    "tv",
+    "bt2020nc",
+    null,
+    null
+   ],
+   "stream_side_data": [],
+   "stream_side_data_full": [],
+   "frame_side_data": [
+    "H.26[45] User Data Unregistered SEI message",
+    "H.26[45] User Data Unregistered SEI message",
+    "Mastering display metadata",
+    "Content light level metadata"
+   ],
+   "frame_color": [
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ]
+  },
+  {
+   "case": "copy default tag",
+   "rc": 0,
+   "err": "",
+   "codec_tag": "hev1",
+   "pix_fmt": "yuv420p10le",
+   "color": [
+    "tv",
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ],
+   "stream_side_data": [],
+   "stream_side_data_full": [],
+   "frame_side_data": [
+    "H.26[45] User Data Unregistered SEI message",
+    "H.26[45] User Data Unregistered SEI message",
+    "Mastering display metadata",
+    "Content light level metadata"
+   ],
+   "frame_color": [
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ]
+  },
+  {
+   "case": "copy -tag:v hvc1",
+   "rc": 0,
+   "err": "",
+   "codec_tag": "hvc1",
+   "pix_fmt": "yuv420p10le",
+   "color": [
+    "tv",
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ],
+   "stream_side_data": [],
+   "stream_side_data_full": [],
+   "frame_side_data": [
+    "H.26[45] User Data Unregistered SEI message",
+    "H.26[45] User Data Unregistered SEI message",
+    "Mastering display metadata",
+    "Content light level metadata"
+   ],
+   "frame_color": [
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ]
+  },
+  {
+   "case": "re-encode (decoder frame side data -> encoder) mkv",
+   "rc": 0,
+   "err": "",
+   "codec_tag": "[0][0][0][0]",
+   "pix_fmt": "yuv420p10le",
+   "color": [
+    "tv",
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ],
+   "stream_side_data": [
+    "Content light level metadata",
+    "Mastering display metadata"
+   ],
+   "stream_side_data_full": [
+    {
+     "side_data_type": "Content light level metadata",
+     "max_content": 1000,
+     "max_average": 400
+    },
+    {
+     "side_data_type": "Mastering display metadata",
+     "red_x": "17/25",
+     "red_y": "8/25",
+     "green_x": "53/200",
+     "green_y": "69/100",
+     "blue_x": "3/20",
+     "blue_y": "3/50",
+     "white_point_x": "3127/10000",
+     "white_point_y": "329/1000",
+     "min_luminance": "1/10000",
+     "max_luminance": "1000/1"
+    }
+   ],
+   "frame_side_data": [
+    "H.26[45] User Data Unregistered SEI message",
+    "Mastering display metadata",
+    "H.26[45] User Data Unregistered SEI message",
+    "Content light level metadata"
+   ],
+   "frame_color": [
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ]
+  },
+  {
+   "case": "container-level mkv -> mp4 copy hvc1",
+   "rc": 0,
+   "err": "",
+   "codec_tag": "hvc1",
+   "pix_fmt": "yuv420p10le",
+   "color": [
+    "tv",
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ],
+   "stream_side_data": [
+    "Mastering display metadata",
+    "Content light level metadata"
+   ],
+   "stream_side_data_full": [
+    {
+     "side_data_type": "Mastering display metadata",
+     "red_x": "34000/50000",
+     "red_y": "16000/50000",
+     "green_x": "13250/50000",
+     "green_y": "34500/50000",
+     "blue_x": "7500/50000",
+     "blue_y": "3000/50000",
+     "white_point_x": "15635/50000",
+     "white_point_y": "16450/50000",
+     "min_luminance": "1/10000",
+     "max_luminance": "10000000/10000"
+    },
+    {
+     "side_data_type": "Content light level metadata",
+     "max_content": 1000,
+     "max_average": 400
+    }
+   ],
+   "frame_side_data": [
+    "H.26[45] User Data Unregistered SEI message",
+    "Mastering display metadata",
+    "H.26[45] User Data Unregistered SEI message",
+    "Content light level metadata"
+   ],
+   "frame_color": [
+    "bt2020nc",
+    "smpte2084",
+    "bt2020"
+   ]
+  }
+ ],
+ "misc_files": [
+  {
+   "file": "中文 空格 [测试] (1).mkv",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "mov_text",
+     "tag": "tx3g",
+     "language": "chi",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "decode_ok": false,
+   "decode_msg": "[sost#0:2 @ 000001bf3a3bb9c0] Automatic encoder selection failed Default encoder for format null (codec none) is probably disabled. Please choose an encoder manually. | [sost#0:2 @ 000001bf3a3bb9c0] Error selecting an encoder | Error opening output file -.",
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ]
+  },
+  {
+   "file": "no_audio.mkv",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ]
+  },
+  {
+   "file": "already_compatible.mkv",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "codec": "h264",
+     "tag": "avc1",
+     "language": "und",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    },
+    {
+     "codec": "aac",
+     "tag": "mp4a",
+     "language": "eng",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "default": 1,
+     "forced": 0,
+     "attached_pic": 0
+    }
+   ],
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ]
+  },
+  {
+   "file": "truncated.mkv",
+   "probe_rc": 1,
+   "probe_err": "containing master element ending at 0x1423\n[matroska,webm @ 0000021192d98440] Element at 0x86 ending at 0xa6a9d8 exceeds containing master element ending at 0x1432\n[matroska,webm @ 0000021192d98440] Element at 0x96 ending at 0xf936f87 exceeds containing master element ending at 0x1442\n[matroska,webm",
+   "probe_duration": null,
+   "nb_streams": 0,
+   "convert_rc": 4294967291,
+   "convert_err": "[in#0 @ 000002a5885e7a80] File ended prematurely | [in#0 @ 000002a5885e7a80] Duplicate element | [in#0 @ 000002a5885e7a80] Element at 0x741 ending at 0x10a6dd exceeds containing master element ending at 0x13f7",
+   "xerror_decode_rc": 4294967291,
+   "xerror_decode_err": "[in#0 @ 000001050ca77a00] File ended prematurely | [in#0 @ 000001050ca77a00] Duplicate element | [in#0 @ 000001050ca77a00] Element at 0x741 ending at 0x10a6dd exceeds containing master element ending at 0x13f7"
+  }
+ ]
+}

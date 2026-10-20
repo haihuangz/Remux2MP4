@@ -1,0 +1,14 @@
+build/
+bin/
+dist/
+publish/
+__pycache__/
+*.pyc
+*.partial*
+tests/media/
+tests/out*/
+tests/_smoke/
+tests/_gui/
+tests/_cancel/
+tests/compat_out/
+tests/bench_log.txt

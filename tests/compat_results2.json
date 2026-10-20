@@ -1,0 +1,1363 @@
+{
+ "stream_titles": [
+  {
+   "variant": "default",
+   "rc": 0,
+   "err": "",
+   "args_extra": "",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  },
+  {
+   "variant": "use_metadata_tags",
+   "rc": 0,
+   "err": "",
+   "args_extra": "-movflags +use_metadata_tags",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  },
+  {
+   "variant": "explicit_title",
+   "rc": 0,
+   "err": "",
+   "args_extra": "-metadata:s:a:0 title=日语 -metadata:s:a:1 title=English 5.1 -metadata:s:a:2 title=国语 -metadata:s:s:0 title=简体中文 -metadata:s:s:1 title=English Signs (ASS) -metadata:s:s:2 title=WebVTT 日本語",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  },
+  {
+   "variant": "explicit_title_use_metadata_tags",
+   "rc": 0,
+   "err": "",
+   "args_extra": "-metadata:s:a:0 title=日语 -metadata:s:a:1 title=English 5.1 -metadata:s:a:2 title=国语 -metadata:s:s:0 title=简体中文 -metadata:s:s:1 title=English Signs (ASS) -metadata:s:s:2 title=WebVTT 日本語 -movflags +use_metadata_tags",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "SoundHandler",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  },
+  {
+   "variant": "handler_name",
+   "rc": 0,
+   "err": "",
+   "args_extra": "-metadata:s:a:0 handler_name=日语 -metadata:s:a:1 handler_name=English 5.1 -metadata:s:a:2 handler_name=国语 -metadata:s:s:0 handler_name=简体中文 -metadata:s:s:1 handler_name=English Signs (ASS) -metadata:s:s:2 handler_name=WebVTT 日本語",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "日语",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "English 5.1",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "国语",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "简体中文",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "English Signs (ASS)",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "WebVTT 日本語",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  },
+  {
+   "variant": "handler_and_title",
+   "rc": 0,
+   "err": "",
+   "args_extra": "-metadata:s:a:0 handler_name=日语 -metadata:s:a:1 handler_name=English 5.1 -metadata:s:a:2 handler_name=国语 -metadata:s:s:0 handler_name=简体中文 -metadata:s:s:1 handler_name=English Signs (ASS) -metadata:s:s:2 handler_name=WebVTT 日本語 -metadata:s:a:0 title=日语 -metadata:s:a:1 title=English 5.1 -metadata:s:a:2 title=国语 -metadata:s:s:0 title=简体中文 -metadata:s:s:1 title=English Signs (ASS) -metadata:s:s:2 title=WebVTT 日本語",
+   "streams": [
+    {
+     "i": 0,
+     "codec": "h264",
+     "title": null,
+     "handler_name": "VideoHandler",
+     "language": "und"
+    },
+    {
+     "i": 1,
+     "codec": "aac",
+     "title": null,
+     "handler_name": "日语",
+     "language": "jpn"
+    },
+    {
+     "i": 2,
+     "codec": "ac3",
+     "title": null,
+     "handler_name": "English 5.1",
+     "language": "eng"
+    },
+    {
+     "i": 3,
+     "codec": "flac",
+     "title": null,
+     "handler_name": "国语",
+     "language": "chi"
+    },
+    {
+     "i": 4,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "简体中文",
+     "language": "chi"
+    },
+    {
+     "i": 5,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "English Signs (ASS)",
+     "language": "eng"
+    },
+    {
+     "i": 6,
+     "codec": "mov_text",
+     "title": null,
+     "handler_name": "WebVTT 日本語",
+     "language": "jpn"
+    },
+    {
+     "i": 7,
+     "codec": "bin_data",
+     "title": null,
+     "handler_name": "SubtitleHandler",
+     "language": "eng"
+    }
+   ],
+   "title_bytes_in_file": {
+    "English 5.1": true,
+    "简体中文": true
+   },
+   "udta_name_atoms": [
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name",
+    "moov/trak/udta/name"
+   ]
+  }
+ ],
+ "global_tags": [
+  {
+   "variant": "no_flag",
+   "cmd_tail": "-map 0:v:0 -map 0:a:0 -c copy -map_metadata 0",
+   "rc": 0,
+   "err": "",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomiso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "artist": "测试艺术家 Test Artist",
+    "date": "2026",
+    "encoder": "Lavf62.12.101",
+    "comment": "全局注释 global comment"
+   },
+   "itunes_atoms": {
+    "©nam": true,
+    "©ART": true,
+    "©day": true,
+    "©cmt": true,
+    "©too": true
+   },
+   "mdta_keys_box": {
+    "keys": false,
+    "mdta": false,
+    "MY_CUSTOM_TAG": false
+   }
+  },
+  {
+   "variant": "use_metadata_tags",
+   "cmd_tail": "-map 0:v:0 -map 0:a:0 -c copy -map_metadata 0 -movflags +use_metadata_tags",
+   "rc": 0,
+   "err": "",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomiso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "ENCODED_BY_TEST": "make_samples.py",
+    "ARTIST": "测试艺术家 Test Artist",
+    "COMMENT": "全局注释 global comment",
+    "DATE": "2026",
+    "MY_CUSTOM_TAG": "custom value 自定义",
+    "encoder": "Lavf62.12.101"
+   },
+   "itunes_atoms": {
+    "©nam": false,
+    "©ART": false,
+    "©day": false,
+    "©cmt": false,
+    "©too": false
+   },
+   "mdta_keys_box": {
+    "keys": true,
+    "mdta": true,
+    "MY_CUSTOM_TAG": true
+   }
+  },
+  {
+   "variant": "no_map_metadata_flag_default",
+   "cmd_tail": "-map 0:v:0 -map 0:a:0 -c copy",
+   "rc": 0,
+   "err": "",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomiso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "artist": "测试艺术家 Test Artist",
+    "date": "2026",
+    "encoder": "Lavf62.12.101",
+    "comment": "全局注释 global comment"
+   },
+   "itunes_atoms": {
+    "©nam": true,
+    "©ART": true,
+    "©day": true,
+    "©cmt": true,
+    "©too": true
+   },
+   "mdta_keys_box": {
+    "keys": false,
+    "mdta": false,
+    "MY_CUSTOM_TAG": false
+   }
+  },
+  {
+   "variant": "-f ffmetadata sidecar",
+   "rc": 0,
+   "err": "",
+   "content": ";FFMETADATA1\ntitle=多轨测试 Multi Track Test\nENCODED_BY_TEST=make_samples.py\nARTIST=测试艺术家 Test Artist\nCOMMENT=全局注释 global comment\nDATE=2026\nMY_CUSTOM_TAG=custom value 自定义\nencoder=Lavf62.12.101\n[CHAPTER]\nTIMEBASE=1/1000000000\nSTART=0\nEND=2000000000\ntitle=第一章 Opening\n[CHAPTER]\nTIMEBASE=1/1000000000\nSTART=2000000000\nEND=4000000000\ntitle=Chapter 2 中段\n[CHAPTER]\nTIMEBASE=1/1000000000\nSTART=4000000000\nEND=6000000000\ntitle=第三章 Ending\n"
+  },
+  {
+   "variant": "re-import ffmetadata as input 1 (-map_metadata 1 -map_chapters 1)",
+   "rc": 0,
+   "err": "",
+   "format_tags": {
+    "major_brand": "isom",
+    "minor_version": "512",
+    "compatible_brands": "isomiso2avc1mp41",
+    "title": "多轨测试 Multi Track Test",
+    "artist": "测试艺术家 Test Artist",
+    "date": "2026",
+    "encoder": "Lavf62.12.101",
+    "comment": "全局注释 global comment"
+   },
+   "chapters": [
+    "第一章 Opening",
+    "Chapter 2 中段",
+    "第三章 Ending"
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "variant": "no -map_chapters (default)",
+   "rc": 0,
+   "err": "",
+   "chapters": [
+    [
+     "0.000000",
+     "2.000000",
+     "第一章 Opening"
+    ],
+    [
+     "2.000000",
+     "4.000000",
+     "Chapter 2 中段"
+    ],
+    [
+     "4.000000",
+     "6.000000",
+     "第三章 Ending"
+    ]
+   ],
+   "streams": [
+    [
+     0,
+     "video",
+     "h264",
+     "avc1",
+     "VideoHandler"
+    ],
+    [
+     1,
+     "data",
+     "bin_data",
+     "text",
+     "SubtitleHandler"
+    ]
+   ],
+   "chpl_atom": [
+    "moov/udta/chpl"
+   ],
+   "chap_tref": [
+    "moov/trak/tref/chap"
+   ]
+  },
+  {
+   "variant": "-map_chapters 0",
+   "rc": 0,
+   "err": "",
+   "chapters": [
+    [
+     "0.000000",
+     "2.000000",
+     "第一章 Opening"
+    ],
+    [
+     "2.000000",
+     "4.000000",
+     "Chapter 2 中段"
+    ],
+    [
+     "4.000000",
+     "6.000000",
+     "第三章 Ending"
+    ]
+   ],
+   "streams": [
+    [
+     0,
+     "video",
+     "h264",
+     "avc1",
+     "VideoHandler"
+    ],
+    [
+     1,
+     "data",
+     "bin_data",
+     "text",
+     "SubtitleHandler"
+    ]
+   ],
+   "chpl_atom": [
+    "moov/udta/chpl"
+   ],
+   "chap_tref": [
+    "moov/trak/tref/chap"
+   ]
+  },
+  {
+   "variant": "-map_chapters -1",
+   "rc": 0,
+   "err": "",
+   "chapters": [],
+   "streams": [
+    [
+     0,
+     "video",
+     "h264",
+     "avc1",
+     "VideoHandler"
+    ]
+   ],
+   "chpl_atom": [],
+   "chap_tref": []
+  }
+ ],
+ "cover_art": [
+  {
+   "file": "multi_full_no_use_metadata_tags.mp4",
+   "covr_atom": [
+    "moov/udta/meta/ilst/covr"
+   ],
+   "extract_rc": 0,
+   "byte_identical_to_source_cover": true
+  },
+  {
+   "file": "multi_full_use_metadata_tags.mp4",
+   "covr_atom": []
+  },
+  {
+   "file": "cover_only_attached_pic.mp4",
+   "covr_atom": [
+    "moov/udta/meta/ilst/covr"
+   ],
+   "extract_rc": 0,
+   "byte_identical_to_source_cover": true
+  },
+  {
+   "case": "png cover attachment mkv -> mp4",
+   "make_rc": 0,
+   "make_err": "",
+   "src_streams": [
+    [
+     0,
+     "video",
+     "h264",
+     [],
+     null
+    ],
+    [
+     1,
+     "audio",
+     "aac",
+     [],
+     null
+    ],
+    [
+     2,
+     "video",
+     "png",
+     [
+      "attached_pic"
+     ],
+     "cover.png"
+    ]
+   ],
+   "rc": 0,
+   "err": "",
+   "out_streams": [
+    [
+     0,
+     "h264",
+     [
+      "default"
+     ]
+    ],
+    [
+     1,
+     "aac",
+     [
+      "default"
+     ]
+    ],
+    [
+     2,
+     "png",
+     [
+      "attached_pic"
+     ]
+    ]
+   ],
+   "covr_atom": [
+    "moov/udta/meta/ilst/covr"
+   ]
+  },
+  {
+   "case": "-map 0:8 without -disposition attached_pic (relies on input disposition)",
+   "rc": 0,
+   "err": "",
+   "out_streams": [
+    [
+     0,
+     "h264",
+     [
+      "default"
+     ]
+    ],
+    [
+     1,
+     "bin_data",
+     []
+    ],
+    [
+     2,
+     "mjpeg",
+     [
+      "attached_pic"
+     ]
+    ]
+   ],
+   "covr_atom": [
+    "moov/udta/meta/ilst/covr"
+   ]
+  }
+ ],
+ "attachments_dump": [
+  {
+   "case": "-dump_attachment:t:0 <absolute unicode path> -i in.mkv -f null -",
+   "rc": 0,
+   "err": "",
+   "exists": true,
+   "identical": true
+  },
+  {
+   "case": "how ffprobe lists attachments in multi.mkv",
+   "streams": [
+    [
+     7,
+     "attachment",
+     "ttf",
+     "arial.ttf",
+     "application/x-truetype-font",
+     []
+    ],
+    [
+     8,
+     "video",
+     "mjpeg",
+     "cover.jpg",
+     "image/jpeg",
+     [
+      "attached_pic"
+     ]
+    ]
+   ]
+  }
+ ],
+ "bitmap_subs": [
+  {
+   "case": "dvdsub -> .mks (-f matroska)",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "i": 0,
+     "type": "subtitle",
+     "codec": "dvd_subtitle",
+     "tag": "[0][0][0][0]",
+     "tags": {
+      "language": "eng",
+      "title": "DVD bitmap subs",
+      "DURATION": "00:00:03.000000000"
+     },
+     "disp": [
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "case": "dvdsub -> .sub.mkv",
+   "rc": 0,
+   "err": "",
+   "streams": [
+    {
+     "i": 0,
+     "type": "subtitle",
+     "codec": "dvd_subtitle",
+     "tag": "[0][0][0][0]",
+     "tags": {
+      "language": "eng",
+      "title": "DVD bitmap subs",
+      "DURATION": "00:00:03.000000000"
+     },
+     "disp": [
+      "default"
+     ]
+    }
+   ]
+  },
+  {
+   "case": "dvdsub rendered frame mkv vs mp4 (palette/position survive?)",
+   "renders": {
+    "mkv": {
+     "rc": 0,
+     "err": "",
+     "md5": "d3513d3306cfc0f1ca5cd48bf287a198"
+    },
+    "mp4": {
+     "rc": 0,
+     "err": "",
+     "md5": "d3513d3306cfc0f1ca5cd48bf287a198"
+    }
+   },
+   "identical": true
+  },
+  {
+   "case": "pgs -> .sup via -map 0:s:0 (no -f)",
+   "rc": 0,
+   "err": "",
+   "magic": "PG",
+   "probe": [
+    [
+     "hdmv_pgs_subtitle",
+     {}
+    ]
+   ]
+  }
+ ],
+ "language_disposition": [
+  {
+   "case": "build lang_disp.mkv",
+   "rc": 0,
+   "err": "",
+   "src": [
+    [
+     0,
+     "video",
+     null,
+     []
+    ],
+    [
+     1,
+     "audio",
+     "zh-CN",
+     [
+      "default"
+     ]
+    ],
+    [
+     2,
+     "audio",
+     "zho",
+     [
+      "comment"
+     ]
+    ],
+    [
+     3,
+     "audio",
+     "yue",
+     [
+      "visual_impaired"
+     ]
+    ],
+    [
+     4,
+     "subtitle",
+     "pt-BR",
+     [
+      "hearing_impaired"
+     ]
+    ],
+    [
+     5,
+     "subtitle",
+     "chi",
+     [
+      "default",
+      "forced"
+     ]
+    ],
+    [
+     6,
+     "subtitle",
+     "qaa",
+     []
+    ]
+   ],
+   "convert_rc": 0,
+   "convert_err": "",
+   "out": [
+    [
+     0,
+     "video",
+     "und",
+     [
+      "default"
+     ]
+    ],
+    [
+     1,
+     "audio",
+     null,
+     [
+      "default"
+     ]
+    ],
+    [
+     2,
+     "audio",
+     "zho",
+     [
+      "comment"
+     ]
+    ],
+    [
+     3,
+     "audio",
+     "yue",
+     [
+      "visual_impaired",
+      "descriptions"
+     ]
+    ],
+    [
+     4,
+     "subtitle",
+     null,
+     [
+      "hearing_impaired",
+      "captions"
+     ]
+    ],
+    [
+     5,
+     "subtitle",
+     "chi",
+     [
+      "default",
+      "forced"
+     ]
+    ],
+    [
+     6,
+     "subtitle",
+     "qaa",
+     []
+    ]
+   ],
+   "kind_atoms": [
+    "moov/trak/udta/kind",
+    "moov/trak/udta/kind",
+    "moov/trak/udta/kind",
+    "moov/trak/udta/kind"
+   ]
+  }
+ ],
+ "harness_fixes": [
+  {
+   "case": "unicode filename mp4 decode (v+a only)",
+   "rc": 0,
+   "err": "clean"
+  },
+  {
+   "case": "unicode filename mp4 subtitle events",
+   "events": 2,
+   "err": ""
+  },
+  {
+   "case": "full stream list of multi_full_no_use_metadata_tags.mp4",
+   "streams": [
+    [
+     0,
+     "video",
+     "h264",
+     "avc1",
+     [
+      "default"
+     ],
+     "VideoHandler"
+    ],
+    [
+     1,
+     "audio",
+     "aac",
+     "mp4a",
+     [
+      "default"
+     ],
+     "SoundHandler"
+    ],
+    [
+     2,
+     "audio",
+     "ac3",
+     "ac-3",
+     [],
+     "SoundHandler"
+    ],
+    [
+     3,
+     "audio",
+     "flac",
+     "fLaC",
+     [],
+     "SoundHandler"
+    ],
+    [
+     4,
+     "subtitle",
+     "mov_text",
+     "tx3g",
+     [
+      "default"
+     ],
+     "SubtitleHandler"
+    ],
+    [
+     5,
+     "subtitle",
+     "mov_text",
+     "tx3g",
+     [
+      "forced"
+     ],
+     "SubtitleHandler"
+    ],
+    [
+     6,
+     "subtitle",
+     "mov_text",
+     "tx3g",
+     [],
+     "SubtitleHandler"
+    ],
+    [
+     7,
+     "data",
+     "bin_data",
+     "text",
+     [],
+     "SubtitleHandler"
+    ],
+    [
+     8,
+     "video",
+     "mjpeg",
+     "[0][0][0][0]",
+     [
+      "attached_pic"
+     ],
+     null
+    ]
+   ]
+  }
+ ],
+ "faststart": [
+  {
+   "variant": "no faststart",
+   "rc": 0,
+   "top_atoms": [
+    "ftyp",
+    "free",
+    "mdat",
+    "moov"
+   ]
+  },
+  {
+   "variant": "+faststart",
+   "rc": 0,
+   "top_atoms": [
+    "ftyp",
+    "moov",
+    "free",
+    "mdat"
+   ]
+  }
+ ],
+ "extra_codecs": [
+  {
+   "codec": "h264_hi10",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "h264",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "h264",
+   "out_tag": "avc1"
+  },
+  {
+   "codec": "h264_444",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "h264",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "h264",
+   "out_tag": "avc1"
+  },
+  {
+   "codec": "mpeg4_xvid",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "mpeg4",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "mpeg4",
+   "out_tag": "mp4v"
+  },
+  {
+   "codec": "msmpeg4v3",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "msmpeg4v3",
+   "errors": {
+    "plain": "[mp4 @ 000002575e361580] Could not find tag for codec msmpeg4v3 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000002575e2def40] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 00000149e6498bc0] Could not find tag for codec msmpeg4v3 in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000149e6420480] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 000001fc9ed593c0] Could not find tag for codec msmpeg4v3 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001fc9ecdedc0] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "wmv2",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "wmv2",
+   "errors": {
+    "plain": "[mp4 @ 00000191498d2cc0] Could not find tag for codec wmv2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001914984f440] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 000001e18935be80] Could not find tag for codec wmv2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001e1892dfac0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 00000216b5c39480] Could not find tag for codec wmv2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000216b5bbfc40] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "mjpeg",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "mjpeg",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "mjpeg",
+   "out_tag": "mp4v"
+  },
+  {
+   "codec": "prores",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "prores",
+   "errors": {
+    "plain": "[mp4 @ 00000197604b8340] Could not find tag for codec prores in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000019760441940] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000026f6e777b80] Could not find tag for codec prores in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000026f6e6ff500] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 00000177f8b7d6c0] Could not find tag for codec prores in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000177f8af0980] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "ffv1",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "ffv1",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "ffv1",
+   "out_tag": "FFV1"
+  },
+  {
+   "codec": "h263p",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "h263",
+   "errors": {
+    "plain": "[mp4 @ 000001e033776ec0] Could not find tag for codec h263 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001e0336ffe40] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000021ab176d1c0] Could not find tag for codec h263 in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000021ab16eecc0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 00000206448db780] Could not find tag for codec h263 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000002064484f500] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "mp3",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "mp3",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "mp3",
+   "out_tag": "mp4a"
+  },
+  {
+   "codec": "pcm_s16le",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "pcm_s16le",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "pcm_s16le",
+   "out_tag": "ipcm"
+  },
+  {
+   "codec": "pcm_f32le",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "pcm_f32le",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "pcm_f32le",
+   "out_tag": "fpcm"
+  },
+  {
+   "codec": "wavpack",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "wavpack",
+   "errors": {
+    "plain": "[mp4 @ 0000023b2d4d7e00] Could not find tag for codec wavpack in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000023b2d45fec0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 00000168835e7ac0] Could not find tag for codec wavpack in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001688356f680] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 000001e9df5a7500] Could not find tag for codec wavpack in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001e9df52dfc0] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "tta",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "tta",
+   "errors": {
+    "plain": "[mp4 @ 0000013cf1e17700] Could not find tag for codec tta in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000013cf1d9e600] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 000001a0bb178700] Could not find tag for codec tta in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001a0bb1008c0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 000001e257a88a80] Could not find tag for codec tta in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001e2579e2d80] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "aac_he",
+   "make_rc": 4294967274,
+   "make_err": "[aac @ 000002b950678f00] Profile not supported! | [aost#0:0/aac @ 000002b950678800] [enc:aac @ 000002b950675a00] Error while opening encoder - maybe incorrect parameters such as bit_rate, rate, width or height. | [af#0:0 @ 000002b95244a900] Error sending frames to consumers: Invalid argument"
+  },
+  {
+   "codec": "ac3_51",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "ac3",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "ac3",
+   "out_tag": "ac-3"
+  },
+  {
+   "codec": "dts_51",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "dts",
+   "works_with": "plain",
+   "decode_ok": true,
+   "decode_msg": "clean",
+   "out_codec": "dts",
+   "out_tag": "mp4a"
+  },
+  {
+   "codec": "wmav2",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "wmav2",
+   "errors": {
+    "plain": "[mp4 @ 00000247bf23ddc0] Could not find tag for codec wmav2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000247bf180680] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 000001c829589580] Could not find tag for codec wmav2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 000001c829510e40] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 0000025272578140] Could not find tag for codec wmav2 in stream #0, codec not currently supported in container | [out#0/mp4 @ 00000252724fecc0] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  },
+  {
+   "codec": "speex",
+   "make_rc": 0,
+   "make_err": "",
+   "probe_codec": "speex",
+   "errors": {
+    "plain": "[mp4 @ 0000026a77127b40] Could not find tag for codec speex in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000026a770aed80] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "unofficial": "[mp4 @ 0000022d355f3480] Could not find tag for codec speex in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000022d35561cc0] Could not write header (incorrect codec parameters ?): Invalid argument",
+    "experimental": "[mp4 @ 0000021460c285c0] Could not find tag for codec speex in stream #0, codec not currently supported in container | [out#0/mp4 @ 0000021460baeec0] Could not write header (incorrect codec parameters ?): Invalid argument"
+   },
+   "works_with": null
+  }
+ ]
+}
