@@ -25,7 +25,7 @@
 
 ---
 
-## Video to MP4 (视频转MP4) 1.1.0
+## Remux2MP4 (视频转MP4) 1.1.0
 
 Converts OBS recordings (MKV, FLV, MPEG-TS, fragmented MP4/MOV) into regular MP4 files without re-encoding, keeps tracks, track names, languages and chapters as far as MP4 allows, checks every output against its source and writes a report. The user interface is in Chinese; Windows 64-bit only (macOS/Linux can run the source).
 

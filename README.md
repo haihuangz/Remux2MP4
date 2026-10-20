@@ -133,7 +133,7 @@ python build.py                    # 生成 dist\视频转MP4\ 和 dist\Remux2MP
 
 ## English
 
-**视频转MP4 (Video to MP4)** converts OBS recordings (MKV, FLV, MPEG-TS, fragmented MP4/MOV) into regular MP4 files without re-encoding, keeps tracks and metadata as far as MP4 allows (see known limitations), checks each output against its source and writes a report. The user interface is in Chinese.
+**视频转MP4 (Remux2MP4)** converts OBS recordings (MKV, FLV, MPEG-TS, fragmented MP4/MOV) into regular MP4 files without re-encoding, keeps tracks and metadata as far as MP4 allows (see known limitations), checks each output against its source and writes a report. The user interface is in Chinese.
 
 ### What it does
 
