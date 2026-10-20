@@ -26,7 +26,7 @@
 
 ## 下载和使用
 
-1. 到本仓库的 **Releases** 页面下载最新的 `Video2MP4-v<版本>-win64.zip`。
+1. 到本仓库的 **Releases** 页面下载最新的 `Remux2MP4-v<版本>-win64.zip`。
 2. 右键 →“全部解压缩”，双击 `视频转MP4.exe`（第一次运行 Windows 可能提示“已保护你的电脑”，点“更多信息”→“仍要运行”）。
 3. 把文件或文件夹拖进窗口，点“开始转换”。转完点“打开输出文件夹”，双击列表里的文件可以看转换报告。
 
@@ -96,7 +96,7 @@ MP4 装不下、另存到旁边的：
 python gui.py                      # 图形界面
 python mkv2mp4.py 录像.mkv         # 命令行
 pip install -r requirements-build.txt
-python build.py                    # 生成 dist\视频转MP4\ 和 dist\Video2MP4-v<版本>-win64.zip
+python build.py                    # 生成 dist\视频转MP4\ 和 dist\Remux2MP4-v<版本>-win64.zip
 ```
 
 图标是仓库里的 `assets/app.ico`。FFmpeg 怎么随程序发布、怎么自己编译，见下面的 FFmpeg 一节。
@@ -148,7 +148,7 @@ python build.py                    # 生成 dist\视频转MP4\ 和 dist\Video2MP
 
 ### Download and use
 
-Download the latest `Video2MP4-v<version>-win64.zip` from this repository's **Releases** page, extract it, run `视频转MP4.exe`, drop files into the window and press 开始转换 (Start). The full user guide is [README-使用说明.txt](README-使用说明.txt) (Chinese).
+Download the latest `Remux2MP4-v<version>-win64.zip` from this repository's **Releases** page, extract it, run `视频转MP4.exe`, drop files into the window and press 开始转换 (Start). The full user guide is [README-使用说明.txt](README-使用说明.txt) (Chinese).
 
 Command line: `python mkv2mp4.py <files or folders> -o <output folder> --recursive`, plus `--export-audio`, `--no-companion`, `--no-sidecars`, `--no-faststart`, `--no-verify`. Exit codes: 0 all succeeded, 1 a file failed or the run was cancelled, 2 nothing to convert, 3 ffmpeg/ffprobe not found.
 
@@ -175,7 +175,7 @@ Limitations: codecs MP4 cannot hold at all are re-encoded (VP8, Theora, WMV, Pro
 
 ### Build from source and tests
 
-Windows, Python 3.11+ with Tkinter, and ffmpeg/ffprobe found as described above. Run `python gui.py` or `python mkv2mp4.py`; to package, `pip install -r requirements-build.txt` and `python build.py` (outputs `dist\视频转MP4\` and `dist\Video2MP4-v<version>-win64.zip`; the icon is `assets/app.ico`). Tests and the sample generators are described in [tests/README.md](tests/README.md). For how FFmpeg is distributed and how to build it, see the FFmpeg section below.
+Windows, Python 3.11+ with Tkinter, and ffmpeg/ffprobe found as described above. Run `python gui.py` or `python mkv2mp4.py`; to package, `pip install -r requirements-build.txt` and `python build.py` (outputs `dist\视频转MP4\` and `dist\Remux2MP4-v<version>-win64.zip`; the icon is `assets/app.ico`). Tests and the sample generators are described in [tests/README.md](tests/README.md). For how FFmpeg is distributed and how to build it, see the FFmpeg section below.
 
 ### FFmpeg
 

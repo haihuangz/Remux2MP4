@@ -15,12 +15,12 @@ NAME = core.APP_NAME
 BUILD = os.path.join(HERE, "build")
 DIST = os.environ.get("MKV2MP4_DIST_DIR") or os.path.join(HERE, "dist")
 APP = os.path.join(DIST, NAME)
-ZIP = os.path.join(DIST, f"Video2MP4-v{core.VERSION}-win64.zip")
+ZIP = os.path.join(DIST, f"Remux2MP4-v{core.VERSION}-win64.zip")
 ICON = os.path.join(HERE, "assets", "app.ico")
 GUIDE = "README-使用说明.txt"
 SOURCE_FILES = ["mkv2mp4_core.py", "mkv2mp4.py", "gui.py", "LICENSE", GUIDE]
 
-PROJECT_URL = "https://github.com/haihuangz/Video2MP4"
+PROJECT_URL = "https://github.com/haihuangz/Remux2MP4"
 
 FFMPEG_PACKAGING = "bundle-slim"
 FFMPEG_PACKAGING_CHOICES = ("bundle-slim",)

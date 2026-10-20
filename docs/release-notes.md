@@ -11,7 +11,7 @@
 
 ### 下载和使用
 
-1. 下载下面的 `Video2MP4-v1.1.0-win64.zip`，右键 →“全部解压缩”。
+1. 下载下面的 `Remux2MP4-v1.1.0-win64.zip`，右键 →“全部解压缩”。
 2. 双击 `视频转MP4.exe`，把录像文件或文件夹拖进窗口，点“开始转换”。
 3. 转完点“打开输出文件夹”；双击列表里的文件可以看转换报告。详细说明见压缩包里的 `README-使用说明.txt`。
 
@@ -38,7 +38,7 @@ Converts OBS recordings (MKV, FLV, MPEG-TS, fragmented MP4/MOV) into regular MP4
 
 ### Download and use
 
-1. Download `Video2MP4-v1.1.0-win64.zip` below and extract it (right-click → Extract All).
+1. Download `Remux2MP4-v1.1.0-win64.zip` below and extract it (right-click → Extract All).
 2. Run `视频转MP4.exe`, drop recordings or folders into the window and press 开始转换 (Start).
 3. Press 打开输出文件夹 (open output folder) when done; double-click a row to open its report. The full guide is `README-使用说明.txt` in the zip (Chinese).
 
